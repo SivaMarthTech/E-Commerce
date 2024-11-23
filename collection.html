@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <!-- Popup Banner -->
+   <div id="popup-banner" class="popup-banner">
+    <span>Sign Up and GET 20% OFF for your first Order</span>
+    <button id="close-banner" class="close-btn">&times;</button>
+  </div>
+  
+<!-- Navigation Bar -->
+<nav>
+    <div class="logo">Nostra</div>
+    <ul class="nav-links">
+        <li><a href="index.html" id="home">Home</a></li>
+        <li><a href="newarrival.html" id="new-arrivals">New Arrival</a></li>
+        <li><a href="mostwanted.html" id="products">Most Wanted</a></li>
+        <li><a href="collection.html" id="collections">Collections</a></li>
+        <li><a href="contact.html" id="contact">Contact Us</a></li>
+    </ul>
+    <!-- Hamburger Icon for Small Screens -->
+    <div class="menu-icon" id="menu-icon">
+        <span>&#9776;</span>
+    </div>
+  </nav>
+
+  <!-- Filter toggle button -->
+<button class="filter-toggle">Filter Items</button>
+
+  <!--collection section-->
+  <div class="container">
+    <div class="filter-panel">
+        <h3>Filter Items</h3>
+
+        <h4>Occasion</h4>
+        <label><input type="checkbox" class="filter-checkbox" data-type="occasion" value="Ring"> Ring</label><br>
+        <label><input type="checkbox" class="filter-checkbox" data-type="occasion" value="Shoes"> Shoes</label><br>
+        <label><input type="checkbox" class="filter-checkbox" data-type="occasion" value="Hoodie"> Hoodie</label><br>
+        <label><input type="checkbox" class="filter-checkbox" data-type="occasion" value="Pants"> Pant</label><br>
+        <label><input type="checkbox" class="filter-checkbox" data-type="occasion" value="Bag"> Bag</label><br>
+        <label><input type="checkbox" class="filter-checkbox" data-type="occasion" value="Sunglasses"> Sunglasses</label><br>
+        <label><input type="checkbox" class="filter-checkbox" data-type="occasion" value="Tie"> Tie</label><br>
+        <label><input type="checkbox" class="filter-checkbox" data-type="occasion" value="Belt"> Belt</label><br>
+        <label><input type="checkbox" class="filter-checkbox" data-type="occasion" value="Cap"> Cap</label><br>
+        <label><input type="checkbox" class="filter-checkbox" data-type="occasion" value="Gloves"> Gloves</label><br>
+        <label><input type="checkbox" class="filter-checkbox" data-type="occasion" value="Scarf"> Scarf</label><br>
+        <label><input type="checkbox" class="filter-checkbox" data-type="occasion" value="Sweater "> Sweater </label><br>
+
+        <h4>Colors</h4>
+        <label><input type="checkbox" class="filter-checkbox" data-type="color" value="Maroon"> Maroon</label><br>
+        <label><input type="checkbox" class="filter-checkbox" data-type="color" value="Black"> Black</label><br>
+        <label><input type="checkbox" class="filter-checkbox" data-type="color" value="White"> White</label><br>
+        <label><input type="checkbox" class="filter-checkbox" data-type="color" value="Silver"> Silver</label><br>
+        <label><input type="checkbox" class="filter-checkbox" data-type="color" value="Cream"> Cream</label><br>
+        <label><input type="checkbox" class="filter-checkbox" data-type="color" value="Tan"> Tan</label><br>
+        <label><input type="checkbox" class="filter-checkbox" data-type="color" value="Gray"> Gray</label><br>
+        <h4>Arrivals</h4>
+        <label><input type="checkbox" class="filter-checkbox" data-type="arrival" value="New"> New</label><br>
+        <label><input type="checkbox" class="filter-checkbox" data-type="arrival" value="Old"> Old</label><br>
+    </div>
+
+    <div class="items-container">
+        <div class="item" data-occasion="Hoodie" data-color="Black" data-arrival="New">
+            <img src="images/collection_1.jpg" alt="Black Hoodie">
+            <p>Hoodie</p>
+            <p>$29.00</p>
+        </div>
+        <div class="item" data-occasion="Ring" data-color="Silver" data-arrival="Old">
+            <img src="images/collection_2.jpg" alt="Ring">
+            <p>Ring</p>
+            <p>$40.39</p>
+        </div>
+        <div class="item" data-occasion="Shoes" data-color="White" data-arrival="New">
+            <img src="images/collection_3.jpg" alt="Black & White Shoes">
+            <p>Shoes</p>
+            <p>$59.99</p>
+        </div>
+        <div class="item" data-occasion="Pants" data-color="Black" data-arrival="New">
+            <img src="images/collection_4.jpg" alt="Black Pant">
+            <p>Pant</p>
+            <p>$69.56</p>
+        </div>
+        <div class="item" data-occasion="Hoodie" data-color="Maroon" data-arrival="New">
+            <img src="images/collection_5.jpg" alt="Maroon Hoodie">
+            <p>Hoodie</p>
+            <p>$29.00</p>
+        </div>
+        <div class="item" data-occasion="Pants" data-color="Cream" data-arrival="Old">
+            <img src="images/collection_6.jpg" alt="Pant">
+            <p>Pant</p>
+            <p>$40.39</p>
+        </div>
+        <div class="item" data-occasion="Shoes" data-color="Black" data-arrival="New">
+            <img src="images/collection_7.jpg" alt="Black Shoes">
+            <p>Shoes</p>
+            <p>$59.99</p>
+        </div>
+        <div class="item" data-occasion="Gloves" data-color="Black" data-arrival="Old">
+            <img src="images/collection_8.jpg" alt="Black Gloves">
+            <p>Gloves</p>
+            <p>$69.56</p>
+        </div>
+        <div class="item" data-occasion="Bag" data-color="Black" data-arrival="New">
+            <img src="images/collection_9.jpg" alt="Black Bag">
+            <p>Bag</p>
+            <p>$29.00</p>
+        </div>
+        <div class="item" data-occasion="Sunglasses" data-color="Black" data-arrival="Old">
+            <img src="images/collection_10.jpg" alt="Ring">
+            <p>Sunglasses</p>
+            <p>$40.39</p>
+        </div>
+        <div class="item" data-occasion="Tie" data-color="Black" data-arrival="New">
+            <img src="images/collection_11.jpg" alt="Black Tie">
+            <p>Tie</p>
+            <p>$59.99</p>
+        </div>
+        <div class="item" data-occasion="Belt" data-color="Black" data-arrival="Old">
+            <img src="images/collection_12.jpg" alt="Black Belt">
+            <p>Belt</p>
+            <p>$69.56</p>
+        </div>
+        <div class="item" data-occasion="Cap" data-color="Gray" data-arrival="New">
+            <img src="images/collection_13.jpg" alt="Gray Cap">
+            <p>Cap</p>
+            <p>$29.00</p>
+        </div>
+        <div class="item" data-occasion="Scarf" data-color="Maroon" data-arrival="Old">
+            <img src="images/collection_14.jpg" alt="Scarf Maroon">
+            <p>Scarf</p>
+            <p>$40.39</p>
+        </div>
+        <div class="item" data-occasion="Sweater" data-color="Tan" data-arrival="New">
+            <img src="images/collection_15.jpg" alt="Tan Sweater">
+            <p>Sweater</p>
+            <p>$59.99</p>
+        </div>
+        <!-- Add more items as needed -->
+    </div>
+</div>
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-section about">
+            <h3>About Us</h3>
+            <p>Nostra is a leading fashion brand offering the latest trends and styles.</p>
+        </div>
+        <div class="footer-section links">
+            <h3>Quick Links</h3>
+            <ul class="nav-links">
+                <li><a href="index.html" id="home-link">Home</a></li>
+                <li><a href="newarrival.html" id="new-arrival">New Arrival</a></li>
+                <li><a href="mostwanted.html" id="most-wanted">Most Wanted</a></li>
+                <li><a href="collection.html" id="collections">Collections</a></li>
+                <li><a href="contact.html" id="contact-us">Contact Us</a></li>
+              </ul>
+        </div>
+        <div class="footer-section contact">
+            <h3>Contact Us</h3>
+            <p>Email: info@nostra.com</p>
+            <p>Phone: (123) 456-7890</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Nostra. All rights reserved.</p>
+    </div>
+</footer>
+ 
+    <script src="scripts.js"></script>
+</body>
+</html>
+
+
+
